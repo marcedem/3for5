@@ -1,0 +1,14 @@
+/** This is the style.css for my better-beer stuffs **/
+
+#better-beer {
+	float: left;
+	width: 230px;
+	height: 152px;
+	background: url(../images/better-beer.png) no-repeat;
+	opacity: .65;
+}
+
+
+#better-beer:hover{
+	opacity:1; 
+}
