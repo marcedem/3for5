@@ -1,0 +1,121 @@
+/** This is the style.css for my better-beer stuffs **/
+
+@font-face {
+	font-family: 'DroidSansBold';
+	src: url('fonts/DroidSans-Bold-webfont.eot');
+	src: local('􀀁'), url('fonts/DroidSans-Bold-webfont.woff')
+	format('woff'), url('fonts/DroidSans-Bold-webfont.ttf')
+	format('truetype'), url('fonts/DroidSans-Boldwebfont.
+	svg#webfontSOhoM6aS') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+#main{
+	
+}
+
+#better-beer {
+	float: left;
+	width: 230px;
+	height: 152px;
+	background: url(../images/better-beer.png) no-repeat;
+	opacity: .65;
+}
+
+
+#better-beer:hover{
+	opacity:1; 
+}
+
+#menu-promo{
+	float: right;
+	width: 274px;
+	height: 154px;
+	background: url(../images/menu-items.png)no-repeat;
+	opacity: 0.65;
+}
+
+#menu-promo:hover{
+	opacity: 1;
+}
+
+#logo{
+	/*position: absolute; */
+	top: 8px;
+	left: 39%;
+	width: 141px;
+	height: 144px;
+	background: url(../images/logo.png) no-repeat;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+#logo:hover{
+	opacity: 0.70;
+}
+
+#primary{
+	width: 100%;
+	height: 38px;
+	background-color: rgb(250, 250, 246);
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	-webkit-box-shadow: 0px 1px 2px #ccc;
+	-moz-box-shadow: 0px 1px 2px #ccc;
+	box-shadow: 0px 1px 2px #ccc;
+	font: bold 13px "DroidSansBold", Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#primary ul li{
+	display: inline;
+	padding-left: 43px;
+}
+
+#primary li a:hover{
+	color: rgb(265, 165, 0);
+	background: rgb(239, 239, 233);
+}
+
+#primary li a{
+	padding: 5px 15px;
+	color: rgb(100, 100, 93);
+	text-shadow: 1px 1px 1px #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.hexthide{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
